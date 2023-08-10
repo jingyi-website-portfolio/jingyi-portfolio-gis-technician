@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../projects_styles/7thward.css" />
+    <title>Jingyi Li</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a> </a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href=""> </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href=""> </a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href=""> </a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1 class=project_title>A Web Application Prototype --- </h1>
+        <p calss="project_subtitle" id = "subtitle"><em>Can we use GIS & web development technologies to facilitate community-centered preservation planning and cultural resource management?</em></p>
+        <!-- <img class=project_image src="../images/7thward_map.jpg" > -->
+        <h3 class="about__desc">
+            This is a series of projects starting from developing a full-stack web application for the community-centered preservation of the 7th ward of Philadelphia. 
+           </h3>
+          <h3 class="about__desc">
+        The 7th ward of Philadelphia is known for its significance as the heart of the city's black and immigrant communities in the late 19th century. Despite facing urban decline in the 1950s due to a proposed Crosstown Expressway, the neighborhood retains its unique history and charm, with former immigrant tenements now transformed into trendy boutiques, restaurants, and apartments. Many buildings in the area once housed important institutions and famous residents. </h3>
+
+        <h3 class="about__desc">
+          My app aims to enhance community engagement in preserving the unique history and culture of Philadelphia's 7th ward. The app enables community members to select existing historic sites or create new ones through an interactive map or web page displaying the neighborhood's current inventory of historic assets. Users can upload written paragraphs or photographs to share personal connections to these sites. The information about each historic site is stored in a NoSQL database using MongoDB on the backend and is immediately updated and presented to users through the interactive map or a visualized list of all cultural resources on the website.
+
+        </h3>
+
+        <h3 class="about__desc">
+          This app serves not only the community but also researchers and preservation professionals, enabling them to conduct building surveys, building typology studies, mapping, GIS data analysis, and database expansion and management. Its purpose is to keep all stakeholders actively engaged in the preservation process of a community's culture and history.
+        </h3>
+
+        <h3 class="about__desc">
+          Later, while working on developing a preservation plan for Carbondale, I adapted a similar prototype for community-centered preservation planning of the city's historic assets. Through conversations with preservation professionals at the city's Historical Society and community members, I discovered an ongoing oral history project aimed at documenting the city's mining history. As a result, I integrated a function allowing community members and researchers to input audio clips to the website and the database. Unlike its initial version for Philly's 7th ward, the Carbondale app is tailored to the community's expectations and needs, and I also developed community programming around it. For instance, high schools can hold workshops for students to use the app in documenting historic buildings, artifacts, or landscapes in their neighborhoods. Young people can learn more about the city's history while helping elders digitize historic photographs and maps, or by recording episodes of stories from their grandparents.
+
+        </p>
+
+           <h3 class="about__desc">     
+              Originally, the app was deployed on Heroku, but the company discontinued its free-tier plans. However, I have included a video to guide you through the functionality of the Carbondale version. Additionally, feel free to explore the project's 
+              <a href="https://github.com/jyl-jyl/MUSA611_Final">code</a>, the "Carbondale's Preservation Planning" 
+              <a href="https://drive.google.com/file/d/1qekdoLTpL17ZLw0GTkNVSa6JEJtw3DDX/view">report</a>, 
+              and the 
+              <a href="https://drive.google.com/file/d/1tKfjXymuhILfrIdfCiHDkL1YpumOf6wP/view">community programmings</a> 
+              developed for the app.         
+            </h3>
+
+        <iframe width="800" height="500" class="project_video" 
+        src="https://www.youtube.com/embed/2hW6jeYR04Q?autoplay=1&mute=1">
+        </iframe>
+
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Jingyi Li
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="../projects_js/7thward.js"></script>
+  </body>
+</html>

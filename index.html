@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jingyi Li</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a>Welcome!</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">Jingyi Li</span></h1>
+        <h3 class="about__desc">
+          Geospatial Analytics ☀︎ Web Development ✤ Data Engineering ☆ Planning and Community Engagement ☀︎ Distributed System Programming ☆ Computer Graphics & Computer Vision ☺︎ Digital Heritage ... ✨ I am passionate about using technologies to solve problems in cultural heritages, cities, the built environment ... and really, just everyday life 🌼</h3>
+
+        <div class="about__contact center">
+          <a href="./docs/Jingyi_resume.pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/jyl-jyl"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/jingyi-li-upenn/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+
+          <div class="project">
+            <img class='project__img' src="images/7th-ward.jpeg">
+            <h3><a href="projects/7thward.html" id = "link">A Prototype for Community-Centered Preservation Planning</a></h3>
+            <p class="project__description">
+              A Full-Stack Web App Prototype Developed for Crowdsourcing Cultural Resources of a Neighborhood Including Personal Stories, Old Photos and Oral Histories for the Community-Centered Preservation of 7th Ward in Philadelphia. 
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-webdev">Web Dev</li>
+              <li class="tag__stack-item tag-geodataviz">Geospatial Data Viz</li>
+              <li class="tag__stack-item tag-hp">Historic Preservation</li>
+            </ul>
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">Express</li>
+              <li class="project__stack-item">RESTful</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JQuery</li>
+              <li class="project__stack-item">MongoDB</li>
+              <li class="project__stack-item">Bootstrap</li>
+
+            </ul>
+
+            <a
+              href="https://github.com/jyl-jyl/MUSA611_Final"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="projects/7thward.html"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>          
+
+
+          <div class="project">
+            <img class='project__img' src="images/flood.jpeg" height="22%" width="100%">
+
+            <h3><a href="https://drive.google.com/file/d/1O3zvixSw0BMCbNw2fYyZ9i5UguV4KlMT/view">Geospatial Analysis & GIS</a></h3>
+            <p class="project__description">
+              Mapping Flood Susceptibility for Historic Properties and Districts in Philadelphia
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-gis">Geospatial Analysis & GIS</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">ArcGIS Pro</li>
+              <li class="project__stack-item">Model Builder</li>
+              <li class="project__stack-item">Raster Calculation</li>
+              <li class="project__stack-item">Public-Sourced Data</li>
+              <li class="project__stack-item">Hydrological Analysis</li>
+            </ul>
+
+           <!--  <a
+              href="https://github.com/jyl-jyl/distrubuted-chat-servers"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+<!--             <a
+              href="https://drive.google.com/file/d/1O3zvixSw0BMCbNw2fYyZ9i5UguV4KlMT/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+
+        <div class="project">
+            <img class='project__img' src="images/PAMA.png" height="22%">
+
+            <h3><a href="https://musa-509-spring-2023.github.io/philly-mass-appraisals-2/ui/reviewer/">Geospatial Cloud Computing & Data Engineering</a></h3>
+            <p class="project__description">
+              Philadelphia Computer-Assisted Mass Appraisal - A Data-Centric Cloud Computing Full-Stack App (In-class Collaboration Project. My work includes: ETL Scripting, Cloud Infrastructure, DevOps, SQL Queries, Vetor Tiles, UI & Dashboard)
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-gis">Geospatial Analysis & GIS</li>
+              <li class="tag__stack-item tag-webdev">Web Dev</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">ETL</li>
+              <li class="project__stack-item">Cloud Services</li>
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">PostgreSQL + PostGIS</li>
+              <li class="project__stack-item">Vetor Tiles</li>
+            </ul>
+
+            <a
+              href="https://github.com/musa-509-spring-2023/philly-mass-appraisals-1"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+<!--             <a
+              href="https://drive.google.com/file/d/1O3zvixSw0BMCbNw2fYyZ9i5UguV4KlMT/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+                    <div class="project">
+            <img class='project__img' src="images/frontend.png">
+
+            <h3><a href="https://musa611-midterm-project-2022-spring.github.io/project_codes.github.io/">A Handy Tool for Preservation Researchers</a></h3>
+            <p class="project__description">
+              A Frontend Web App Built for Filtering Preservation Geospatial database and Visualizing Preservation-Related Datasets of Philadelphia
+            </p>
+
+              <ul class="tag__stack">
+              <li class="tag__stack-item tag-webdev">Web Dev</li>
+              <li class="tag__stack-item tag-geodataviz">Geospatial Data Viz</li>
+              <li class="tag__stack-item tag-hp">Historic Preservation</li>
+            </ul>
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">Leaflet</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/MUSA611-midterm-project-2022-Spring/project_codes.github.io"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://musa611-midterm-project-2022-spring.github.io/project_codes.github.io/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <img class='project__img' src="images/grading_system.png" height="25%" width="100%">
+
+            <h3><a href="https://drive.google.com/file/d/1mo4-dz0FVoZJLj7wDYR3zP1AqZFjk6wC/view?usp=sharing">Geospatial Analysis & GIS</a></h3>
+            <p class="project__description">
+              Grading System of Locating a Community Garden in Rio de Janeiro, Brazil
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-gis">Geospatial Analysis & GIS</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">ArcGIS Pro</li>
+              <li class="project__stack-item">Raster Calculation</li>
+              <li class="project__stack-item">Data Normalization</li>
+            </ul>
+
+           <!--  <a
+              href="https://github.com/jyl-jyl/distrubuted-chat-servers"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+<!--             <a
+              href="https://drive.google.com/file/d/1O3zvixSw0BMCbNw2fYyZ9i5UguV4KlMT/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+         <div class="project">
+            <img class='project__img' src="images/pgadmin.png" height="25%" width="100%">
+
+            <h3><a href="https://github.com/jyl-jyl/Spatial-Query-ETL-Samples">Samples for ETL Scripting and Spatial SQL Queries</a></h3>
+            <p class="project__description">
+              A Repo Containing some Scripts (Python & NodeJS) for ETL and SQL Queries (Postgres + PostGIS) for Sptial Analytics.  
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-gis">Geospatial Analysis & GIS</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">ETL</li>
+              <li class="project__stack-item">PostgresSQL+PostGIS</li>
+              <li class="project__stack-item">Cloud Computing</li>
+            </ul>
+
+           <!--  <a
+              href="https://github.com/jyl-jyl/distrubuted-chat-servers"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+<!--             <a
+              href="https://drive.google.com/file/d/1O3zvixSw0BMCbNw2fYyZ9i5UguV4KlMT/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+
+          <div class="project">
+            <img class='project__img' src="images/minecraft.jpg" height="25%">
+
+            <h3><a href="https://github.com/jyl-jyl/CIS460-560_Intro_Computer_Graphics_22SP">Mini Minescraft Game</a></h3>
+            <p class="project__description">
+              An Interactive 3D World Exploration and Alteration Program in the Style of the Popular Computer Game Minecraft From Scratch (Built in C++).
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-cg">Computer Graphics</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">OpenGL</li>
+              <li class="project__stack-item">GLSL</li>
+              <li class="project__stack-item">Shaders</li>
+              <li class="project__stack-item">Concurrency Programming</li>
+            </ul>
+
+            <a
+              href="https://github.com/jyl-jyl/CIS460-560_Intro_Computer_Graphics_22SP"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+           <!--  <a
+              href="https://drive.google.com/file/d/1O3zvixSw0BMCbNw2fYyZ9i5UguV4KlMT/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+
+          </div>
+         
+
+          <div class="project">
+            <img class='project__img' src="images/penn-cloud.png" >
+            <h3><a href="https://github.com/jyl-jyl/penn-cloud-2022-Fall">Penn Cloud</a></h3>
+            <p class="project__description">
+              A Cloud Platform Supporting Webmail and Storage Server Based on Distributed Key-value Store (Built in C, Contact Me For a Private Share of the Code)
+            </p>
+
+              <ul class="tag__stack">
+              <li class="tag__stack-item tag-system">Distributed System Programming</li>
+            </ul>
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C/C++</li>
+              <li class="project__stack-item">gRPC</li>
+              <li class="project__stack-item">Software Systems</li>
+              <li class="project__stack-item">Server Design</li>
+              <li class="project__stack-item">NoSQL Database</li>
+              <li class="project__stack-item">VMWare</li>
+            </ul>
+
+            <a
+              href="https://github.com/jyl-jyl/penn-cloud-2022-Fall/blob/main/report_backend.pdf"
+              aria-label="source code"
+              class="link link--icon"
+              style="font-size: 1em;font-weight: bold"
+            >
+              <!-- <i aria-hidden="true" class="fab fa-github"></i> -->
+              Report
+            </a>
+            <!-- <a
+              href="https://musa611-midterm-project-2022-spring.github.io/project_codes.github.io/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+
+          <div class="project">
+            <img class='project__img' src="images/nerf.PNG" height="25%" >
+
+            <h3>Master Thesis (Ongoing)</h3>
+            <p class="project__description">
+              AI in Reconstructing Cultural Heritage Sites: A Study on the Comparison between NeRF (Neural Radiance Fields) and Photogrammetry in Historic Preservation
+            </p>
+
+            <ul class="tag__stack">
+                <li class="tag__stack-item tag-hp">Historic Preservation</li>
+<!--               <li class="tag__stack-item tag-webdev">Web Dev</li>
+              <li class="tag__stack-item tag-geodataviz">Geospatial Data Viz</li>
+              <li class="tag__stack-item tag-geodataanalysis">Geospatial Data Analysis</li> -->
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Deep Learning</li>
+              <li class="project__stack-item">Neural Rendering</li>
+              <li class="project__stack-item">AI</li>
+              <li class="project__stack-item">3D Reconstruction</li>
+              <li class="project__stack-item">Digital Heritage</li>
+            </ul>
+
+<!--             <a
+              href="https://github.com/jyl-jyl/data-pipeline"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <img class='project__img' src="images/thunderbird.jpeg" height="22%" width="90%">
+
+            <h3>SMTP and POP3 Email Servers</h3>
+            <p class="project__description">
+              Implementation of SMTP and POP3 Email Servers for a Real Email Client (Supporting Local and Non-local users/Mail Relay, Built in C, Contact Me For a Private Share of the Code)
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-system">Distributed System Programming</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C/C++</li>
+              <li class="project__stack-item">Linux</li>
+              <li class="project__stack-item">TCP/Stream Socket Programming</li>
+              <li class="project__stack-item">Server Design</li>
+              <li class="project__stack-item">RFC-style Protocol Implementation</li>
+              <li class="project__stack-item">Multithread Server Architecture</li>
+              <li class="project__stack-item">Thunderburd</li>
+            </ul>
+
+      <!--       <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+           <!--  <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <img class='project__img' src="images/chatserver.png" height="22%">
+
+            <h3><a href="https://github.com/jyl-jyl/distrubuted-chat-servers">Distributed Multicasting Chat Servers</a></h3>
+            <p class="project__description">
+              Implementation of a Distributed Multicasting Chat Servers which Supports for Unordered, FIFO and Total Ordering Multicast with More Than 15 Servers/Nodes and 300 Clients (Built in C, Contact Me For a Private Share of the Code)
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-system">Distributed System Programming</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C/C++</li>
+              <li class="project__stack-item">Linux</li>
+              <li class="project__stack-item">UDP/Datagram Socket Programming</li>
+              <li class="project__stack-item">Server Design</li>
+              <li class="project__stack-item">Unordered, FIFO & Total Ordering</li>
+            </ul>
+
+            <a
+              href="https://github.com/jyl-jyl/distrubuted-chat-servers"
+              aria-label="source code"
+              class="link link--icon"
+              style="font-size: 1em;font-weight: bold"
+            >
+              <!-- <i aria-hidden="true" class="fab fa-github"></i> -->
+              Report
+            </a>
+          </div>
+
+           <div class="project">
+            <img class='project__img' src="images/minimaya.png" height="22%">
+
+            <h3><a href="https://drive.google.com/file/d/1p3-wIPWJSzxzAjSd9zFa8uIkp-LPeRvd/view?usp=share_link">Mini Maya</a></h3>
+            <p class="project__description">
+              Implementation of a 3D Modeling Software (Maya) Including: Half-edge Mesh, Catmull-Clark Subdivision, Skeleton & Skinning
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-cg">Computer Graphics</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">OpenGL</li>
+              <li class="project__stack-item">3D Modeling Software Development</li>
+              <li class="project__stack-item">Object Oriented Programming</li>
+            </ul>
+
+          <!--   <a
+              href="https://github.com/jyl-jyl/CIS460-560_Intro_Computer_Graphics_22SP"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+<!--             <a
+              href="https://drive.google.com/file/d/1p3-wIPWJSzxzAjSd9zFa8uIkp-LPeRvd/view?usp=share_link"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+          <div class="project">
+            <img class='project__img' src="images/shader.png" height="22%">
+
+            <h3><a href="https://drive.google.com/file/d/1b0IdwUCmqpvehDMYhqk_dWzhgnyzxlEo/view?usp=share_link">OpenGL Shader Fun</a></h3>
+            <p class="project__description">
+              Program Portions Of Opengl’s Graphics Pipeline By Writing Different Vertex And Fragment Shaders To Apply Different Coloration Effects To The Surface Of 3d Models.
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-cg">Computer Graphics</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">OpenGL</li>
+              <li class="project__stack-item">GLSL</li>
+              <li class="project__stack-item">Qt Creator</li>
+              <li class="project__stack-item">Shader</li>
+            </ul>
+
+          <!--   <a
+              href="https://github.com/jyl-jyl/CIS460-560_Intro_Computer_Graphics_22SP"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+<!--             <a
+              href="https://drive.google.com/file/d/1b0IdwUCmqpvehDMYhqk_dWzhgnyzxlEo/view?usp=share_link"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <img class='project__img' src="images/sfm.png" height="25%">
+
+            <h3>3D Reconstruction From 2D Images</h3>
+            <p class="project__description">
+              Implementation of Structure-From-Motion, Two-View-Stereo, Multi-View-Stereo and the Photogrammetry Pipeline in Python (Contact me for a private share of the code)
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-cv">Computer Vision</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">OpenCV</li>
+              <li class="project__stack-item">Ptyhon</li>
+              <li class="project__stack-item">SFM</li>
+              <li class="project__stack-item">SFM</li>
+              <li class="project__stack-item">COLMAP</li>
+              <li class="project__stack-item">Photogrammetry</li>
+            </ul>
+
+          <!--   <a
+              href="https://github.com/jyl-jyl/CIS460-560_Intro_Computer_Graphics_22SP"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+        <!--     <a
+              href="https://drive.google.com/file/d/1b0IdwUCmqpvehDMYhqk_dWzhgnyzxlEo/view?usp=share_link"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <img class='project__img' src="images/architecture.png">
+
+            <h3><a href="https://drive.google.com/file/d/17oKzZSobgxLF6KoNl4_ZSPB9GbRgFcmR/view?usp=sharing">Architectural Design</a></h3>
+            <p class="project__description">
+              SURPRISE !!!!! Yes, I actually have an architecture portfolio! 
+            </p>
+
+            <ul class="tag__stack">
+              <li class="tag__stack-item tag-design">Design</li>
+            </ul>  
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Computer Aided Design</li>
+              <li class="project__stack-item">Rhino</li>
+              <li class="project__stack-item">Sketchup</li>
+              <li class="project__stack-item">Vray</li>
+              <li class="project__stack-item">Lumion</li>
+              <li class="project__stack-item">Photoshop</li>
+              <li class="project__stack-item">Illustrator</li>
+              <li class="project__stack-item">Indesign</li>
+            </ul>
+
+          <!--   <a
+              href="https://github.com/jyl-jyl/CIS460-560_Intro_Computer_Graphics_22SP"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a> -->
+            <a
+              href="https://drive.google.com/file/d/17oKzZSobgxLF6KoNl4_ZSPB9GbRgFcmR/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          </div>
+           
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Distributed System Programming</li>
+          <li class="skills__list-item btn btn--plain">CG</li>
+          <li class="skills__list-item btn btn--plain">CV</li>
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">Cloud Platforms</li>
+          <li class="skills__list-item btn btn--plain">Web Dev</li>
+          <li class="skills__list-item btn btn--plain">Data Engineering</li>
+          <li class="skills__list-item btn btn--plain">Geospatial Analytics</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">NoSQL Database</li>
+          <li class="skills__list-item btn btn--plain">ArcGIS Pro</li>
+          <li class="skills__list-item btn btn--plain">Concurrent Programming</li>
+          <li class="skills__list-item btn btn--plain">Node.js</li>
+          <li class="skills__list-item btn btn--plain">NLP</li>
+          <li class="skills__list-item btn btn--plain">Adobe Suite</li>
+          <li class="skills__list-item btn btn--plain">Mongo DB</li>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:jyljingyili@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Jingyi Li
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
